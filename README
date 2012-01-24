@@ -1,0 +1,5 @@
+in this fork of South we have insert the rules for the correct migration of Photologue fields: 
+in detail we added at 'South/introspection_plugins' the file 'photologue.py'
+and we have modify the '__init__.py' of 'South/introspection_plugins'
+
+With this fork is possible use of command  'manage.py schemamigration ad --initial' without error about TagField freze.
